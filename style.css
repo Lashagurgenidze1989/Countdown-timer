@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+html {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 14.2rem 2.4rem 4.8rem 2.4rem;
+
+  background-image: url(./images/pattern-hills.svg), url(./images/bg-stars.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #1d1e28;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.136px;
+  text-transform: uppercase;
+  width: 28ch;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.4rem;
+  gap: 1.6rem;
+}
+
+.timer-box {
+  position: relative;
+}
+
+.meaning {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fb5e84;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -1.08px;
+}
+
+.top-half {
+  width: 70px;
+  height: 33px;
+  border-radius: 4px 4px 0px 0px;
+  opacity: 0.1506;
+  background: #000;
+  position: absolute;
+}
+
+.middle-line {
+  width: 64px;
+  height: 0.4px;
+  opacity: 0.253;
+  background: #000;
+  position: absolute;
+  top: 44.7%;
+  left: 50%;
+  transform: translate(-50%, -44.7%);
+}
+
+.right-oval {
+  position: absolute;
+  top: 44.3%;
+  left: 98%;
+  transform: translate(-50%, -50%);
+}
+
+.left-oval {
+  position: absolute;
+  top: 40.5%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  transform: rotate(180deg);
+}
+
+.d-h-m-s {
+  color: #8385a9;
+  text-align: center;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.959px;
+  text-transform: uppercase;
+  margin-top: 9px;
+}
+
+footer {
+  margin-top: 26rem;
+}
+
+.socMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+@media (min-width: 1440px) {
+  body {
+    padding: 13.2rem 37.6rem 7.2rem 37.6rem;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+    letter-spacing: 7.5px;
+    width: 30ch;
+  }
+
+  .countdown {
+    margin-top: 10.4rem;
+    gap: 3.2rem;
+  }
+
+  .square {
+    width: 148px;
+    height: 150px;
+  }
+
+  .top-half {
+    width: 148px;
+    height: 70px;
+  }
+
+  .meaning {
+    font-size: 8rem;
+    letter-spacing: -2.4px;
+  }
+
+  .middle-line {
+    width: 136px;
+    height: 1px;
+  }
+
+  .right-oval {
+    width: 6px;
+    height: 12px;
+  }
+
+  .left-oval {
+    width: 6px;
+    height: 12px;
+  }
+
+  .d-h-m-s {
+    font-size: 1.4rem;
+    letter-spacing: 5.919px;
+    margin-top: 16px;
+  }
+}
