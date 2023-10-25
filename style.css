@@ -21,9 +21,10 @@ body {
   padding: 14.2rem 2.4rem 4.8rem 2.4rem;
 
   background-image: url(./images/pattern-hills.svg), url(./images/bg-stars.svg);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, repeat;
   background-position: bottom;
   background-color: #1d1e28;
+  background-size: 100vw, contain;
 }
 
 header h1 {
