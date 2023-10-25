@@ -122,6 +122,11 @@ footer {
   gap: 3rem;
 }
 
+#facebook:hover {
+  cursor: pointer;
+  background-color: #fb5e84;
+}
+
 @media (min-width: 1440px) {
   body {
     padding: 13.2rem 37.6rem 7.2rem 37.6rem;
@@ -172,5 +177,19 @@ footer {
     font-size: 1.4rem;
     letter-spacing: 5.919px;
     margin-top: 16px;
+  }
+
+  footer {
+    margin-top: 25.2rem;
+  }
+
+  .socMedia a img {
+    width: 24px;
+    height: 24px;
+  }
+
+  #facebook:hover {
+    background: #fb5e84;
+    cursor: pointer;
   }
 }
